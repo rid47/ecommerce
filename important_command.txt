@@ -1,0 +1,10 @@
+to activate pipenv: pipenv shell
+
+ctrl+P in sublime open file using keyboard
+
+admin name: mizan
+
+password: 1234 
+
+user name: rashed
+pass: rid220792

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+R47-Store
+{% endblock %}
+
+{% block content %}
+<div class="text-center">
+	<br>
+	<br>
+	<h1 class="text-center product_title">
+		Thanks for placing order
+	</h1>
+
+	<br>
+	<br>
+	<p> Your order number is: <b>{{customer_order.id}}</b></p>
+	<br>
+	<p>
+		We have received your order and will begin processing right away. An  
+		email confirmation sent to you. It contains details of the items you 
+		purchased
+{% endblock %}
+
